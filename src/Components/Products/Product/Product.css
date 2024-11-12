@@ -1,0 +1,11 @@
+.cardHover {
+  transform: translateY(100%);
+  transition: transform 0.5s ease; 
+  position: absolute;
+  bottom: 0; 
+}
+
+.card:hover .cardHover {
+  transform: translateY(0); 
+}
+
