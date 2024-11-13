@@ -5,8 +5,8 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
     font-family: "Montserrat", sans-serif;
+    padding: 0;
     font-optical-sizing: auto;
 }
 @layer components {
@@ -23,12 +23,12 @@
     }
   }
   .buttonColor{
-    color: white;
     background: #FEAF00;
-    font-weight: 500;
+    color: white;
     font-size: 14px;
-    padding: 13px 0;
+    font-weight: 500;
     border-radius: 4px;
+    padding: 13px 0;
   }
 }
  .active{
